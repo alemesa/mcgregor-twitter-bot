@@ -1,0 +1,23 @@
+{
+  "name": "mcgregor-twitter-bot",
+  "version": "1.0.0",
+  "description": "McGregor Twitter Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alemesa/twitter-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alemesa/twitter-bot/issues"
+  },
+  "homepage": "https://github.com/alemesa/twitter-bot#readme",
+  "dependencies": {
+    "node-twitterbot": "^0.2.2",
+    "twit": "^2.2.9"
+  }
+}
