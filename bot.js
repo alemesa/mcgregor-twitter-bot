@@ -7,6 +7,8 @@ var Bot = new TwitterBot({
   access_token: process.env.BOT_ACCESS_TOKEN,
   access_token_secret: process.env.BOT_ACCESS_TOKEN_SECRET
 });
+
+// McGregor Quotes
 var quotesPoll = [
   '"You might win some, you might lose some. But you go in, you challenge yourself, you become a better man, a better individual, a better fighter."',
   '"I enjoy competition. I enjoy challenges. If a challenge is in front of me and it appeals to me, I will go ahead and conquer it."',
@@ -20,10 +22,13 @@ var quotesPoll = [
   '"For [Aldo] to say he is the king and I am the joker, if this was a different time, I would invade his favela on horseback and kill anyone that was not fit to work. But we are in a new time. So I\'ll whoop his ass in July."'
 ];
 
+// Emojis Polls Quotes
 var emojisPoll = ['🔥', '🥊', '🇮🇪', '🏆'];
 function chooseRandom(quote) {
   return quote[Math.floor(Math.random() * quote.length)];
 }
+
+// Randomizing the Tweet
 var phrase =
   chooseRandom(quotesPoll) +
   ' ' +
@@ -31,5 +36,7 @@ var phrase =
   '\n' +
   '𝘊𝘰𝘯𝘯𝘰𝘳 𝘔𝘤𝘎𝘳𝘦𝘨𝘰𝘳';
 
-console.log(phrase); //debugging
+// console.log(phrase); //debugging
+
+// Tweet
 Bot.tweet(phrase);
