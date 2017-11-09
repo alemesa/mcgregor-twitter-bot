@@ -23,7 +23,7 @@ var quotesPoll = [
 ];
 
 // Emojis Polls Quotes
-var emojisPoll = ['🔥', '🥊', '🇮🇪', '🏆'];
+var emojisPoll = ['🔥', '🥊', '🇮🇪', '🏆', '💪'];
 function chooseRandom(quote) {
   return quote[Math.floor(Math.random() * quote.length)];
 }
@@ -34,7 +34,7 @@ var phrase =
   ' ' +
   chooseRandom(emojisPoll) +
   '\n' +
-  '𝘊𝘰𝘯𝘯𝘰𝘳 𝘔𝘤𝘎𝘳𝘦𝘨𝘰𝘳';
+  'Connor McGregor';
 
 // console.log(phrase); //debugging
 
