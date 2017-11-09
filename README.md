@@ -6,7 +6,7 @@ McGregor Twitter Bot
 
 <div align="center">
 <img src="./screenshot.png" width="80%">
-<div>
+</div>
 
 * To send a tweet trigger the heroku server 
 ```bash
